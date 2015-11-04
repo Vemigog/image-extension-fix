@@ -1,21 +1,21 @@
 {
-    "manifest_version": 2,
-    "version": "0.1",
+  "manifest_version": 2,
+  "version": "0.1.1",
 
-    "name": "Image Extension Fix",
-    "description": "Automatically renames images according to the type they are. No more .jpg GIFs or .large-0x539 JPEGs.",
+  "name": "Image Extension Fix",
+  "description": "Automatically renames images according to the type they are. No more .jpg GIFs or .large-0x539 JPEGs.",
 
-    "background": {
-        "scripts": ["image-extension-fix.js"],
-        "persistent": false
-    },
+  "background": {
+    "scripts": ["image-extension-fix.js"],
+    "persistent": false
+  },
 
-    "icons": {
-        "16": "icon-16.png",
-        "48": "icon-48.png",
-        "128": "icon-128.png"
-    },
+  "icons": {
+    "16": "icon-16.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  },
 
-    "permissions": ["downloads"],
-    "content_security_policy": "script-src 'self'; object-src 'self'"
+  "permissions": ["downloads"],
+  "content_security_policy": "script-src 'self'; object-src 'self'"
 }
